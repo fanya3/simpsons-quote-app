@@ -1,0 +1,53 @@
+
+.QuoteCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25em;
+  width: 400px;
+  height: auto;
+  border: 1px solid #f8f8f8;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  font-size: 1.2em;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.QuoteCard img {
+  display: flex;
+  width: 80px;
+  height: auto;
+  margin: auto;
+}
+
+.QuoteCard blockquote {
+  margin: 0 0 1rem 0;
+}
+
+.QuoteCard figcaption p {
+  margin: 0.125rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.QuoteCard figcaption p span {
+  color: #eee;
+}
+
+.QuoteCard figcaption p span.is-favorite {
+  color: #ecc94b;
+}
+
+
+
+.QuoteCard figcaption span:hover {
+  cursor: pointer;
+}
+
+
+blockquote, cite {
+  margin: 10px;
+}
